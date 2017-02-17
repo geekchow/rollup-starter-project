@@ -9,9 +9,9 @@ export default {
   entry: 'lib/index.js',
   plugins: [
     babel(babelrc()),
-    istanbul({
-      exclude: ['test/**/*', 'node_modules/**/*']
-    })
+    // istanbul({
+    //   exclude: ['test/**/*', 'node_modules/**/*']
+    // })
   ],
   external: external,
   targets: [
